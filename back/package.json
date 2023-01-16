@@ -1,0 +1,23 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "\"dependencies\": {\r     \"cors\": \"^2.8.5\",\r     \"express\": \"^4.18.2\",\r     \"mongoose\": \"^6.8.1\",\r     \"pusher\": \"^5.1.2\"\r   }",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"[error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Duncan Burai",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.2",
+    "pusher": "^5.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
